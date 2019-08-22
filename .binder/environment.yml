@@ -1,8 +1,8 @@
 dependencies:
   - pandas
-  - numpy
+  - numpy=1.16.4
   - pathlib
-  - bokeh
+  - bokeh=1.2.0
   - pip
   - pip:
     - jupyter-server-proxy
