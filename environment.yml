@@ -6,4 +6,5 @@ dependencies:
   - bokeh=1.2.0
   - pip
   - pip:
+    - nbserverproxy
     - jupyter-server-proxy
