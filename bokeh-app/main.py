@@ -22,7 +22,7 @@ from bokeh.models import DatetimeTickFormatter
 from bokeh.models.tools import HoverTool
 from bokeh.models.widgets import Div, Select
 
-from . import pokefunctions
+import pokefunctions
 
 # Define paths.
 PATH_DATA = pathlib.Path(r"./data")
