@@ -242,7 +242,7 @@ def get_pokeball_location():
         Path to the pokeball image.
         Do NOT use a pathlib.Path, since it isn't JSON serializable.
     """
-    return '../images/pokeball.png'
+    return './images/pokeball.png'
 
 
 #%%

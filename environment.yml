@@ -4,7 +4,6 @@ dependencies:
   - numpy=1.16.4
   - pathlib
   - bokeh=1.2.0
-  - nbserverproxy
   - pip
   - pip:
     - jupyter-server-proxy
