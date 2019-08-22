@@ -25,8 +25,8 @@ from bokeh.models.widgets import Div, Select
 from . import pokefunctions
 
 # Define paths.
-PATH_DATA = pathlib.Path(r"../../data")
-PATH_OUTPUT = pathlib.Path(r"../../output")
+PATH_DATA = pathlib.Path(r"./data")
+PATH_OUTPUT = pathlib.Path(r"./output")
 if not PATH_OUTPUT.exists():
     PATH_OUTPUT.mkdir()
 
