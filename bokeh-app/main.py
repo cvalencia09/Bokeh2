@@ -10,6 +10,7 @@ arturomoncadatorres@gmail.com
 import pandas as pd
 import numpy as np
 import pathlib
+import os
 
 from bokeh.io import curdoc
 from bokeh.plotting import figure
@@ -25,8 +26,10 @@ from bokeh.models.widgets import Div, Select
 import pokefunctions
 
 # Define paths.
-PATH_DATA = pathlib.Path(r"./data")
-PATH_OUTPUT = pathlib.Path(r"./output")
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+PATH_DATA = pathlib.Path(os.path.join(dir_path, "data"))
+PATH_OUTPUT = pathlib.Path(os.path.join(dir_path, "output"))
 if not PATH_OUTPUT.exists():
     PATH_OUTPUT.mkdir()
 
