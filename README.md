@@ -6,14 +6,16 @@ The newest entries of the Pok&eacute; main series, [Pok&eacute;mon Sword and Pok
 
 <img src="./images/banner.PNG" width="100%" align="center">
 
-In a series where "Gotta catch'em all" is its catch phrase, this caused a huge backslash by some members of the community<sup>1</sup>. Their main argument was that "every Pok&eacute;mon is someone's favorite". In order to test this, reddit user [`mamamia1001`](https://www.reddit.com/user/mamamia1001/) created a survey to record Pok&eacute;mon preference. (S)he also [analyzed the survey results and made the dataset public](https://www.reddit.com/r/pokemon/comments/c0w4s0/favourite_pok%C3%A9mon_survey_results/).
-
-In this project, I created an interactive dashboard using [Bokeh](https://bokeh.pydata.org/en/latest/index.html) to visualize the results of the survey. It allows you to choose whatever Pok&eacute;mon you want and see its preference ranking compared to all Pok&eacute;mon, compared to all Pok&eacute;mon of its generation, and how did people voted for it in time during the period in which the survey was open.
+In a series where "Gotta catch'em all" is its catch phrase, this caused a huge backslash by some members of the community<sup>1</sup>. Their main argument was that "every Pok&eacute;mon is someone's favorite". In order to test this, reddit user [`mamamia1001`](https://www.reddit.com/user/mamamia1001/) created a survey to record Pok&eacute;mon preference. (S)he also [analyzed the survey results and made the dataset public](https://www.reddit.com/r/pokemon/comments/c0w4s0/favourite_pok%C3%A9mon_survey_results/). In this project, I created an interactive dashboard using [Bokeh](https://bokeh.pydata.org/en/latest/index.html) to visualize the results of the survey. 
 
 **You can find the interactive visualization here** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arturomoncadatorres/favorite-pokemon-interactive/16eebda4779dd6dc52fcdc4c2181b291fbb5a270?urlpath=%2Fproxy%2F5006%2Fbokeh-app)
- (be patient, it can take a while to load). It looks something like this:
+ (be patient, it can take a while to load). 
+ 
+It looks something like this:
 
 <img src="./images/bokeh_dashboard.PNG" width="85%" align="center">
+
+It allows you to choose whatever Pok&eacute;mon you want and see its preference ranking compared to all Pok&eacute;mon, compared to all Pok&eacute;mon of its generation, and how did people voted for it in time during the period in which the survey was open (notice how the color of that plot corresponds to the Pok&eacute;mon's dominant color)
 
 If you are interested in a more detailed (although more static) analysis of the data, please check out [my other repository](https://github.com/arturomoncadatorres/favorite-pokemon).
 
