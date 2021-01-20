@@ -1,10 +1,7 @@
 dependencies:
+  - bokeh
   - pandas
-  - xlrd=1.2.0
-  - numpy
-  - pathlib
-  - bokeh=1.2.0
-  - requests
+  - scipy
   - pip
   - pip:
     - nbserverproxy
