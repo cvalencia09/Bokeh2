@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 from bokeh.io import curdoc
@@ -7,7 +8,12 @@ from bokeh.models import (Button, CategoricalColorMapper, ColumnDataSource,
 from bokeh.palettes import Spectral6
 from bokeh.plotting import figure
 
-all_df_dict = np.load('./renta/my_file.npy',allow_pickle='TRUE').item()
+
+# Define paths.
+dir_path = os.path.dirname(os.path.realpath(__file__))
+PATH_DATA = pathlib.Path(os.path.join(dir_path, 'renta'))
+
+all_df_dict = np.load('PATH_DATA//my_file.npy',allow_pickle='TRUE').item()
 
 data = {}
 

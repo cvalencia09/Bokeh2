@@ -5,3 +5,6 @@ graph of the temperatures, but a smoothed representation can be selected.
 To run the script, execute:
 
     bokeh serve --show weather/
+
+
+https://mybinder.org/v2/gh/cvalencia09/Bokeh2/myApp?urlpath=/proxy/5006/bokeh-app
