@@ -1,4 +1,6 @@
 import os
+import pathlib
+
 import pandas as pd
 import numpy as np
 from bokeh.io import curdoc
@@ -12,8 +14,7 @@ from bokeh.plotting import figure
 # Define paths.
 dir_path = os.path.dirname(os.path.realpath(__file__))
 PATH_DATA = pathlib.Path(os.path.join(dir_path, 'renta'))
-
-all_df_dict = np.load('PATH_DATA//my_file.npy',allow_pickle='TRUE').item()
+all_df_dict = np.load(PATH_DATA/'my_file.npy', allow_pickle='TRUE').item()
 
 data = {}
 
